@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog"
+    android:padding="5dp"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Enter name"
+         />
+
+    <EditText
+        android:id="@+id/new_number"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Contact number"
+       />
+
+    <EditText
+        android:id="@+id/new_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Enter email"
+       />
+
+    <Button
+        android:id="@+id/new_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="5dp"
+        android:text="OK"
+        />
+</LinearLayout>
